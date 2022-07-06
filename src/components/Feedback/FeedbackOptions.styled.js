@@ -17,4 +17,7 @@ export const Button = styled.button`
   height: 30px;
   border-radius: ${p => p.theme.radii.large};
   cursor: pointer;
+  ::first-letter {
+    text-transform: capitalize;
+  }
 `;
